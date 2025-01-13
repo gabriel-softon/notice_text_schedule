@@ -21,8 +21,20 @@ Este projeto tem como objetivo extrair o texto de notícias de URLs armazenadas 
 
 ## Instalação
 
-1. Clone o repositório:
+1. Inicie o ambiente:
+
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   uv venv
+   .venv\Scripts\activate
+   ```
+
+2. Instale os módulos:
+
+   ```bash
+   uv add
+   ```
+
+3. Rode o projeto:
+   ```bash
+   python app.py
    ```
